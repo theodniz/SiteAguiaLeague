@@ -1,0 +1,57 @@
+header {
+    position: absolute;
+    width: 1242px;
+    height: 159px;
+    left: 0px;
+    top: -2px;
+
+    /* azul-escuro */
+
+    background: #00334A;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    left: 500px;
+    top: 50px;
+    
+}
+
+nav li a {
+    font-size: 1.2rem;
+    transition: all .1s ease;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    
+
+    /* cinza-claro */
+
+    color: #DFDFDF;
+
+}
+
+nav ul li a:hover{
+    font-size: 1.2rem;
+    transition: all .1s ease;
+    font-family: 'Montserrat';
+    
+
+}
+
+img {
+    position: absolute;
+    width: 250px;
+    height: 160px;
+    left: 0px;
+    top: -1px;
+
+
+}
