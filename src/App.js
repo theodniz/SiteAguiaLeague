@@ -1,14 +1,15 @@
 import './componentes/header.css'
 import logo from './img/logo.png'
+import Inscricao from './paginas/inscricao/inscricao.js';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container">
        <header>
         <div className='logo'>
           <img src={logo} alt='logo'/>
         </div>
-            <nav>
+            <nav className='navbar'>
                 <ul>
                     <li><a>Inicio</a></li>
                     <li><a>Sobre</a></li>
@@ -19,7 +20,8 @@ function App() {
             </nav>
 
         </header>
-    
+        <main>
+        </main>
     </div>
   );
 }
