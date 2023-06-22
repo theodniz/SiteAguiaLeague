@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-
-import Header from './componentes/Header/Header.jsx';
+import Header from './componentes/Header/Header.js';
 import reportWebVitals from './reportWebVitals';
 import Login from './componentes/Login/Login.jsx';
 
@@ -12,7 +11,6 @@ root.render(
     <BrowserRouter>
       <Switch>
         <Route path = "/" exact component={Header}/>
-        <Route path="/login" exact component={Login} />
       </Switch>
     </BrowserRouter>
   </React.StrictMode>
