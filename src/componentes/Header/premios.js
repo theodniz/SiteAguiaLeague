@@ -3,7 +3,7 @@ import React from "react";
 
 function premios () {
     return (
-        <h1>premios</h1>
+        <h1>teste</h1>
     )
 }
 

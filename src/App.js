@@ -1,15 +1,14 @@
 
 import {Routes, Route, Link} from 'react-router-dom'
 import React from "react";
-import Header from './componentes/Header/Header';
-import Jogos from './componentes/Header/jogos.js';
+import Header from './componentes/header/Header'
+import Jogos from './componentes/header/jogos'
 import Torneio from './componentes/header/torneios.js';
 import Sobre from './componentes/header/sobre.js';
 import Premios from './componentes/header/premios.js';
-import './componentes/header/header.css'
+import Login from './componentes/Login/Login.jsx'
 
-import BootstrapCSS from './bootstrap/css/bootstrap.min.css'
-import Login from './componentes/Login/Login.js';
+
 
 
 function App() {
@@ -17,7 +16,6 @@ function App() {
     <div className="App">
       <Header />
       <head>
-        <link href={BootstrapCSS} rel="styleshet"></link>
         <link rel="stylesheet" type="text/css" href="css/estilo.css"></link>
       </head>
       <header> 

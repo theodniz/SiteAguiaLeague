@@ -5,7 +5,9 @@
 
 header {
     background-color: #00334A;
-    box-shadow: 0px 3px 10px #DFDFDF;
+    box-shadow: 0px 1px 10px #DFDFDF;
+    position: absolute;
+    width: 100%;
 }
 
 .nav-bar {
