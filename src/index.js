@@ -1,12 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+
+import Header from './componentes/Header/Header.jsx';
 import reportWebVitals from './reportWebVitals';
+import Login from './componentes/Login/Login.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Switch>
+        <Route path = "/" exact component={Header}/>
+        <Route path="/login" exact component={Login} />
+      </Switch>
+    </BrowserRouter>
   </React.StrictMode>
 );
 

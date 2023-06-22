@@ -1,0 +1,48 @@
+*{
+    background-color: #00334A;
+}
+
+/* .container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+  
+  /* .form-container {
+    max-width: 1000px;
+    margin: 0 auto;
+  } */
+  
+.btn{
+    width: 140px;
+    border-radius: 0px;
+    height: 40px;
+}
+
+.form-control, #email:focus, #email:active, #password:focus, #password:active{
+    border-radius: 0px;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-color:rgba(255, 255, 255, 0.534);
+    background-color: #00334A;
+    color: white;
+}
+
+#email::placeholder{
+    color: rgba(255, 255, 255, 0.534);
+}
+
+#password::placeholder{
+    color: rgba(255, 255, 255, 0.534);
+}
+
+form{
+    margin: 30px;
+    margin-bottom: 25%;
+}
+
+form div{
+    padding-bottom: 20px;
+}
+

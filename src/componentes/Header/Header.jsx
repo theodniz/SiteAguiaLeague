@@ -1,7 +1,8 @@
-import './componentes/header.css'
-import logo from './img/logo.png'
 
-function App() {
+import './Header.css'
+import logo from '../../img/logo.png'
+
+function Header() {
   return (
     <div className="App">
        <header>
@@ -24,4 +25,4 @@ function App() {
   );
 }
 
-export default App;
+export default Header;
